@@ -15,7 +15,9 @@ Usage
 
 Add the plugin to `project/plugins/build.sbt`:
 
-    libraryDependencies += "com.samskivert" %% "sbt-condep-plugin" % "1.0-SNAPSHOT"
+    resolvers += "Condep repo" at "http://samskivert.github.com/sbt-condep-plugin/maven"
+
+    libraryDependencies += "com.samskivert" %% "sbt-condep-plugin" % "1.0"
 
 In your `project/Build.scala` file, declare and use your conditional
 dependencies like so:
