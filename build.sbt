@@ -4,7 +4,7 @@ organization := "com.samskivert"
 
 name := "sbt-condep-plugin"
 
-version := "1.1-SNAPSHOT"
+version := "1.2-SNAPSHOT"
 
 publishMavenStyle := true
 
